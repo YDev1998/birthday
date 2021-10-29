@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.counter {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 10;
+}
+.img-holder {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -10;
+}
+.img {
+  width: 10%;
+  height: 10vh;
+  background: #1918;
+  float: left;
+}
+.center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.age {
+  font-weight: 900;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 250px;
+}
+.wish {
+}
+.d-none {
+  display: none;
+}

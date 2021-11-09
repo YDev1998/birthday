@@ -8,6 +8,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url('./assets/loader1.gif');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-weight: 900;
+  font-size: 30px;
+  color: #fff;
 }
 .main {
   position: absolute;
@@ -42,7 +48,4 @@
   font-weight: 900;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 250px;
-}
-.wish {
-  width: 100%;
 }
